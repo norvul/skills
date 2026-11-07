@@ -1,0 +1,26 @@
+name: Bug report
+description: Report a problem with a skill or repository tooling.
+body:
+  - type: markdown
+    attributes:
+      value: For security problems, use the private reporting link instead of this form.
+  - type: input
+    id: affected
+    attributes:
+      label: Affected skill or tool
+      description: Include the commit hash or version, and the agent or environment used.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Use a minimal example with no credentials or private data.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

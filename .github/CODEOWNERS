@@ -1,0 +1,3 @@
+# Routing review requests does not itself enforce approval.
+# Required approvals remain at zero while there is one maintainer.
+* @norvul-admin

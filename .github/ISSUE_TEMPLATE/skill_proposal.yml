@@ -1,0 +1,24 @@
+name: Skill proposal or improvement
+description: Discuss a new skill or a substantial improvement before implementing it.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and proposed behavior
+      description: Who would use this, and what practical task would it help with?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example usage
+      description: Show a realistic request and the result you expect.
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: Tools, access, and dependencies
+      description: Identify commands, downloads, services, permissions, and licensing considerations.
+    validations:
+      required: true

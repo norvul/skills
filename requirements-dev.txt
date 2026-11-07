@@ -1,0 +1,4 @@
+# Pinned validation dependencies, including transitive dependencies.
+PyYAML==6.0.3
+markdown-it-py==4.2.0
+mdurl==0.1.2
