@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clean Code Review"
+  short_description: "Correctness, optimization, security, and quality audit"
+  default_prompt: "Use $clean-code-review to choose the right review mode, verify correctness and contracts, make the safest bounded fixes, and then state what still blocks end-state closure and what the next rerun should target."
