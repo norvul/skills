@@ -10,6 +10,7 @@ what becomes part of the published library.
 | Skill | Purpose |
 | --- | --- |
 | [Clean Code Review](skills/clean-code-review/SKILL.md) | Review correctness, maintainability, security, stale code, and performance; make bounded fixes and report the evidence. |
+| [Beast Mode](skills/beast-mode/SKILL.md) | Coordinate focused engineering work in Alpha with thirteen optional supporting skills for understanding, design, cleanup, verification, and communication. |
 
 See the [skill catalog](skills/README.md) for requirements and an example request.
 
